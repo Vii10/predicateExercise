@@ -25,6 +25,10 @@ public class Product {
 	public void setValue(double value) {
 		this.value = value;
 	}
+	
+	public static boolean staticMethod(Product product) {
+		return product.getValue() >= 100;
+	}
 
 	@Override
 	public String toString() {
