@@ -26,8 +26,8 @@ public class Product {
 		this.value = value;
 	}
 	
-	public static boolean staticMethod(Product product) {
-		return product.getValue() >= 100;
+	public boolean staticMethod() {
+		return value >= 100;
 	}
 
 	@Override
